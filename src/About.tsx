@@ -1,9 +1,9 @@
 import * as React from "react";
-import { Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function About() {
-    return (
-      <div>
+  return (
+    <div>
       <div className="container-fluid">
         <div className="NavigationItems">
           <div className="row">
@@ -17,7 +17,7 @@ export default function About() {
           </div>
         </div>
       </div>
-        <h1>About Me</h1>
-      </div>
-    );
-  }
+      <h1>About Me</h1>
+    </div>
+  );
+}

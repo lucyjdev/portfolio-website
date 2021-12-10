@@ -27,6 +27,20 @@
   margin-bottom: 30px;
 }
 
+/* certificates css */
+
+.title {
+  text-align: center;
+  margin: 50px;
+}
+
+.FrontEndDevCert {
+  width: 550px;
+}
+
+.ReactDevCert {
+  width: 550px;
+}
 
 
 

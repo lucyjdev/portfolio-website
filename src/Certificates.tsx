@@ -1,5 +1,8 @@
 import * as React from "react";
-import { Routes, Route, Link } from "react-router-dom";
+import {Link } from "react-router-dom";
+import "./App.css";
+import frontEndCert from "./frontEndDevCert.png";
+import reactCert from "./reactDevCert.png";
 
 export default function Certificates() {
     return (
@@ -17,7 +20,17 @@ export default function Certificates() {
           </div>
         </div>
       </div>
-        <h1>Certificates and Qualifications</h1>
+        <h1 className="title">Certificates and Qualifications</h1>
+        <div className="container-fluid">
+            <div className="row">
+                <div className="col">
+                <img className="FrontEndDevCert" src={frontEndCert} alt="Front End Devlopment Certificate" />
+                </div>
+                <div className="col">
+                <img className="ReactDevCert" src={reactCert} alt="React Devlopment Certificate" /> 
+                </div>
+            </div>
+        </div>
       </div>
     );
   }
