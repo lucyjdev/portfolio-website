@@ -3,6 +3,10 @@ import { Routes, Route, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import profileImage from "./lucy.png";
+import Contact from "./Contact";
+import Certificates from "./Certificates";
+import Projects from "./Projects";
+import About from "./About";
 
 function App() {
   return (
@@ -76,87 +80,5 @@ function Home() {
   );
 }
 
-function About() {
-  return (
-    <>
-      <h1>About Me</h1>
-      <nav>
-        <Link to="/">Return to Homepage</Link>
-      </nav>
-    </>
-  );
-}
-
-function Projects() {
-  return (
-    <>
-      <h1>My Projects</h1>
-      <nav>
-        <Link to="/">Return to Homepage</Link>
-      </nav>
-    </>
-  );
-}
-
-function Certificates() {
-  return (
-    <>
-      <h1>Certificates and Qualifications</h1>
-      <nav>
-        <Link to="/">Return to Homepage</Link>
-      </nav>
-    </>
-  );
-}
-
-function Contact() {
-  return (
-    <div className="container mt-5">
-      <h1>Contact Me</h1>
-      <form className="row g-3">
-        <div className="col-md-6">
-          <label htmlFor="firstName" className="form-label">
-            First Name
-          </label>
-          <input
-            type="text"
-            className="form-control"
-            id="firstName"
-            required
-          ></input>
-        </div>
-        <div className="col-md-6">
-          <label htmlFor="lastName" className="form-label">
-            Last Name
-          </label>
-          <input
-            type="text"
-            className="form-control"
-            id="lastName"
-            required
-          ></input>
-        </div>
-        <div className="col-md-8">
-          <label htmlFor="emailInfo" className="form-label">Email</label>
-          <input type="email" className="form-control" id="emailInfo" required></input>
-        </div>
-        <div className="col-md-4">
-          <label htmlFor="phoneNumber" className="form-label">Phone Number</label>
-          <input type="text" className="form-control" id="phoneNumber" placeholder="+44"></input>
-        </div>
-        <div className="col-md-12">
-          <label htmlFor="comments" className="form-label">Enquiry</label>
-          <textarea className="form-control" id="comments" rows={3} required></textarea>
-        </div>
-        <div className="col-md-12">
-          <button type="submit" className="btn btn-primary">Submit</button>
-        </div>
-      </form>
-      <nav>
-        <Link to="/">Return to Homepage</Link>
-      </nav>
-    </div>
-  );
-}
 
 export default App;
