@@ -19,7 +19,7 @@ export default function Contact() {
       </div>
       <div className="container mt-5">
         <h1>Contact Me</h1>
-        <form className="row g-3">
+        <form className="row g-3" action="https://formsubmit.co/03b60fa18f4d2231d3c3aa529e0259f0" method="POST">
           <div className="col-md-6">
             <label htmlFor="firstName" className="form-label">
               First Name
@@ -27,6 +27,7 @@ export default function Contact() {
             <input
               type="text"
               className="form-control"
+              name="name"
               id="firstName"
               required
             ></input>
@@ -38,6 +39,7 @@ export default function Contact() {
             <input
               type="text"
               className="form-control"
+              name="Last Name"
               id="lastName"
               required
             ></input>
@@ -49,6 +51,7 @@ export default function Contact() {
             <input
               type="email"
               className="form-control"
+              name="email"
               id="emailInfo"
               required
             ></input>
@@ -60,6 +63,7 @@ export default function Contact() {
             <input
               type="text"
               className="form-control"
+              name="phone"
               id="phoneNumber"
               placeholder="+44"
             ></input>
@@ -70,6 +74,7 @@ export default function Contact() {
             </label>
             <textarea
               className="form-control"
+              name="enquiry"
               id="comments"
               rows={3}
               required
