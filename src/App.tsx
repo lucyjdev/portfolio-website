@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import profileImage from "./lucy.png";
@@ -26,8 +26,40 @@ function Home() {
   return (
     <>
       <main>
-        <div className="container-fluid">
-          <div className="NavigationItems">
+        <div className="container">
+          <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarTogglerDemo01"
+              aria-controls="navbarTogglerDemo01"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarNav">
+              <ul className="navbar-nav">
+              <li className="nav-item">
+                <a className="nav-link" href="/">Home</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/about">About Me</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/projects">My Projects</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/certificates">Certificates</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/contact">Contact Me</a>
+              </li>
+              </ul>
+            </div>
+          </nav>
+          {/* <div className="NavigationItems">
             <div className="row">
               <div className="col">
                 <nav>
@@ -46,9 +78,7 @@ function Home() {
               <div className="col">
                 <nav>
                   <div className="d-block p-2 bg-light text-white">
-                    <Link to="/certificates">
-                      Certificates and Qualifications
-                    </Link>
+                    <Link to="/certificates">Certificates</Link>
                   </div>
                 </nav>
               </div>
@@ -60,7 +90,7 @@ function Home() {
                 </nav>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="container-fluid">
             <div className="row">
               <div className="col-4">
@@ -70,7 +100,24 @@ function Home() {
               </div>
               <div className="col-8">
                 <h2 className="About">Lucy Joyce</h2>
-                <p>Write something here</p>
+                <p>I am a web and iOS developer from London.</p>
+                <p>
+                  Please check out my story under the 'About Me' section, my
+                  projects in 'My Projects' section and my certificates in the
+                  'Certificates' section. To get in contact, please use the
+                  details below or the contact form under the 'Contact Me'
+                  section above.
+                </p>
+                <p>
+                  Lucy Joyce on{" "}
+                  <a href="https://www.linkedin.com/in/lucy-joyce-597485166/">
+                    Linkdin
+                  </a>
+                </p>
+                <p>
+                  Lucy Joyce on <a href="https://github.com/lucyj204">GitHub</a>
+                </p>
+                <p>Email me at lucyj20490@gmail.com</p>
               </div>
             </div>
           </div>
@@ -79,6 +126,5 @@ function Home() {
     </>
   );
 }
-
 
 export default App;

@@ -1,3 +1,8 @@
+body {
+  background: radial-gradient(circle at 10% 20%, rgb(239, 246, 249) 0%, rgb(206, 239, 253) 90%);
+}
+
+
 .NavigationItems {
   /* background-color: #90AACB; */
   margin-top: 10px;
@@ -44,6 +49,17 @@
 .ReactDevCert {
   width: 550px;
 }
+
+.iOSCert {
+  width: 550px;
+}
+
+#certificate-rows {
+  text-align: left;
+  margin: 50px;
+}
+
+
 
 
 
