@@ -1,6 +1,5 @@
 import * as React from "react";
 
-
 export default function Contact() {
   return (
     <div>
@@ -40,7 +39,9 @@ export default function Contact() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/contact">Contact Me</a>
+                <a className="nav-link" href="/contact">
+                  Contact Me
+                </a>
               </li>
             </ul>
           </div>
@@ -53,72 +54,73 @@ export default function Contact() {
             method="POST"
           >
             {/* Can add honeypot here in the future to disable captcha           */}
-
-            <div className="col-md-6">
-              <label htmlFor="firstName" className="form-label">
-                First Name
-              </label>
-              <input
-                type="text"
-                className="form-control"
-                name="First&nbsp;Name"
-                id="firstName"
-                required
-              ></input>
-            </div>
-            <div className="col-md-6">
-              <label htmlFor="lastName" className="form-label">
-                Last Name
-              </label>
-              <input
-                type="text"
-                className="form-control"
-                name="Last&nbsp;Name"
-                id="lastName"
-                required
-              ></input>
-            </div>
-            <div className="col-md-8">
-              <label htmlFor="emailInfo" className="form-label">
-                Email
-              </label>
-              <input
-                type="email"
-                className="form-control"
-                name="Email"
-                id="emailInfo"
-                required
-              ></input>
-            </div>
-            <div className="col-md-4">
-              <label htmlFor="phoneNumber" className="form-label">
-                Phone Number
-              </label>
-              <input
-                type="text"
-                className="form-control"
-                name="Phone&nbsp;Number"
-                id="phoneNumber"
-                placeholder="+44"
-              ></input>
-            </div>
-            <div className="col-md-12">
-              <label htmlFor="comments" className="form-label">
-                Enquiry
-              </label>
-              <textarea
-                className="form-control"
-                name="Enquiry"
-                id="comments"
-                rows={3}
-                required
-              ></textarea>
-            </div>
-            <div className="col-md-12">
-              <button type="submit" className="btn btn-primary">
-                Submit
-              </button>
-            </div>
+           
+              <div className="col-md-6">
+                <label htmlFor="firstName" className="form-label">
+                  First Name
+                </label>
+                <input
+                  type="text"
+                  className="form-control"
+                  name="First&nbsp;Name"
+                  id="firstName"
+                  required
+                ></input>
+              </div>
+              <div className="col-md-6">
+                <label htmlFor="lastName" className="form-label">
+                  Last Name
+                </label>
+                <input
+                  type="text"
+                  className="form-control"
+                  name="Last&nbsp;Name"
+                  id="lastName"
+                  required
+                ></input>
+              </div>
+              <div className="col-md-8">
+                <label htmlFor="emailInfo" className="form-label">
+                  Email
+                </label>
+                <input
+                  type="email"
+                  className="form-control"
+                  name="Email"
+                  id="emailInfo"
+                  required
+                ></input>
+              </div>
+              <div className="col-md-4">
+                <label htmlFor="phoneNumber" className="form-label">
+                  Phone Number
+                </label>
+                <input
+                  type="text"
+                  className="form-control"
+                  name="Phone&nbsp;Number"
+                  id="phoneNumber"
+                  placeholder="+44"
+                ></input>
+              </div>
+              <div className="col-md-12">
+                <label htmlFor="comments" className="form-label">
+                  Enquiry
+                </label>
+                <textarea
+                  className="form-control"
+                  name="Enquiry"
+                  id="comments"
+                  rows={3}
+                  required
+                ></textarea>
+              </div>
+              <div className="col-md-12">
+                <button type="submit" className="btn btn-primary">
+                  Submit
+                </button>
+              </div>
+            
           </form>
         </div>
       </div>

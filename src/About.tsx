@@ -47,6 +47,7 @@ export default function About() {
         </nav>
         <div className="container">
           <h1 className="title">About Me</h1>
+          <div className="info-para">
           <p>Thanks for checking out my site!</p>
           <p>
             As a bit about me, I was first introduced to programming during
@@ -55,12 +56,12 @@ export default function About() {
             with a free Python course offered as part of a government scheme and
             whilst I was doing this saw an advert on Facebook for a free online
             workshop with a company called SheCodes. After attending the
-            workshop, I wanted to know more. Six months on and I had completed
+            workshop, I couldn't wait to start learning. Six months on and I had completed
             the SheCodes beginner workshop, SheCodes Plus workshop and SheCodes
             React workshop. Links to my certificates and final projects can be
             found on the links at the top of this page, and further information
             on the workshops and course content can be found{" "}
-            <a href="https://www.shecodes.io/">here</a>
+            <a href="https://www.shecodes.io/">here</a>.
           </p>
           <p>
             After I completed the SheCodes workshops in January 2021, I
@@ -82,9 +83,10 @@ export default function About() {
             about my journey still to come.
           </p>
           <p>
-            Please take a look at my projects to date and use the details on the
+            Please take a look at my projects to date and use the form on the
             ‘Contact Me’ tab to get in touch 😀.
           </p>
+          </div>
         </div>
       </div>
     </div>

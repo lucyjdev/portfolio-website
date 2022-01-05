@@ -112,13 +112,14 @@ function Home() {
               </div>
               <div className="col-8">
                 <h2 className="About">Lucy Joyce</h2>
+                <div className="info-para">
                 <p>I am a web and iOS developer from London.</p>
                 <p>
-                  Please check out my story under the 'About Me' section, my
-                  projects in 'My Projects' section and my certificates in the
-                  'Certificates' section. To get in contact, please use the
+                  Please check out my story under the 'About Me' tab, my
+                  projects under the 'My Projects' tab and my certificates under the
+                  'Certificates' tab. To get in contact, please use the
                   details below or the contact form under the 'Contact Me'
-                  section above.
+                  tab above.
                 </p>
                 <p>
                   Lucy Joyce on{" "}
@@ -130,6 +131,7 @@ function Home() {
                   Lucy Joyce on <a href="https://github.com/lucyj204">GitHub</a>
                 </p>
                 <p>Email me at lucyj20490@gmail.com</p>
+                </div>
               </div>
             </div>
           </div>
