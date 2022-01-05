@@ -71,11 +71,11 @@ export default function About() {
             great introduction to iOS app development and I had experience
             building over 20 apps as part of this course.{" "}
           </p>
-          <p>
+          {/* <p>
             I am now in the process of developing my own iOS app which has been
             a huge learning experience. I am also building my own backend
             service for my app in Typescript, which has allowed me to….
-          </p>
+          </p> */}
           <p>
             I’m looking for an opportunity to join a team and further my
             experience and passion for web and app development and am excited

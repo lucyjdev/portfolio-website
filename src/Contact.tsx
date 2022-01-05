@@ -46,7 +46,7 @@ export default function Contact() {
           </div>
         </nav>
         <div className="container mt-5">
-          <h1>Contact Me</h1>
+          <h1 className="title">Contact Me</h1>
           <form
             className="row g-3"
             action="https://formsubmit.co/03b60fa18f4d2231d3c3aa529e0259f0"
