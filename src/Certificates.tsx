@@ -5,11 +5,13 @@ import frontEndCert from "./frontEndDevCert.png";
 import reactCert from "./reactDevCert.png";
 import iOSCert from "./iOSBootcamp.png";
 import Navigation from "./Navigation";
+import Slider from "./Slider";
 
 export default function Certificates() {
   return (
     <div>
       <Navigation />
+      <Slider/>
       <h1 className="title">Certificates</h1>
       <div className="info-para">
         <div className="container-fluid">
