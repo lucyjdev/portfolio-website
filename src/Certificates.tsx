@@ -11,8 +11,9 @@ export default function Certificates() {
   return (
     <div>
       <Navigation />
-      <Slider/>
+      
       <h1 className="title">Certificates</h1>
+      <Slider/>
       <div className="info-para">
         <div className="container-fluid">
           <div className="row" id="certificate-rows">
