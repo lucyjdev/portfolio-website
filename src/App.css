@@ -1,11 +1,11 @@
 body {
-  background: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%) fixed;
+  background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%)
+    fixed;
 }
 
 /* .nav-link {
  
 } */
-
 
 .NavigationItems {
   /* background-color: #90AACB; */
@@ -18,36 +18,39 @@ body {
 
 .PersonalInfo {
   text-align: center;
-  color: white;
+  color: #25161b;
   /* background-color: #90AACB; */
- 
 }
 
 .Photo {
-  border: 1px solid #DDD;
+  border: 1px solid #ddd;
   border-radius: 8px;
   padding: 5px;
   margin-bottom: 20px;
   margin-top: 50px;
- width: 250px;
+  width: 250px;
 }
 
 .About {
   margin-top: 50px;
   margin-bottom: 30px;
-  color: white;
+  color: #25161b;
 }
 
 /* certificates css */
 
 .title {
   text-align: center;
-  margin: 50px;
-  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px;
+  background-color: #d6e6f2;
+  color: #25161b;
 }
 
 .info-para {
-  color: white;
+  color: #25161b;
+  text-align: justify;
 }
 
 .BasicsCert {
@@ -75,18 +78,25 @@ body {
 
 .project-language {
   text-align: center;
-  margin: 30px;
+  margin: 50px;
+  text-decoration: underline;
 }
 
 .project-title {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  color: #25161b;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.project-link {
+  color: #1e549f;
+  font-weight: bold;
+}
+
+.project-link:hover {
+  color: #fbb040;
 }
 
 /* .project-detail {
   margin: 20px;
 } */
-
-
-
-

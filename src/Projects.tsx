@@ -1,52 +1,10 @@
 import * as React from "react";
+import Navigation from "./Navigation";
 
 export default function Projects() {
   return (
     <div>
-      <div className="container">
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarTogglerDemo01"
-            aria-controls="navbarTogglerDemo01"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <a className="nav-link" href="/">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/about">
-                  About Me
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/projects">
-                  My Projects
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/certificates">
-                  Certificates
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/contact">
-                  Contact Me
-                </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
+     <Navigation/>
       <div className="container">
         <h1 className="title">My Projects</h1>
         <div className="info-para">
@@ -81,27 +39,50 @@ export default function Projects() {
             Check out the link to the source code below.{" "}
           </p>
           <a
-            className="project-detail"
+            className="project-link"
             href="https://github.com/lucyj204/weather-app-project"
           >
-            View source code for my Weather App Project
+            View the GitHub repository for my Weather App Project
           </a>
           <h3 className="project-title">SheCodes React Project</h3>
-          <p className="project-detail"></p>
-          <h3 className="project-title">My Portfolio Website</h3>
           <p className="project-detail">
-            I decided to build this website using React and Typescript to
-            refresh my knowledge. To view the source code for the website please
-            follow the link below.
+            I started the 8 week SheCodes React workshop in November 2020. The
+            workshop developed on the knowledge and skills I gained in the
+            previous two workshops and introduced React as a a toolkit on top of
+            Javascript. I completed assignments each week and a final project.
+            The final project was to use React to create a weather app with a
+            search engine and API integration. As part of the project, I used
+            Netlify to host my weather app. I have provided a link to both my
+            GitHub repository for the project and my Netlify site below.
           </p>
           <a
-            className="project-detail"
-            href="https://github.com/lucyj204/portfolio-website"
+            className="project-link"
+            href="https://hardcore-varahamihira-b12763.netlify.app/"
           >
-            Link to source code for my website
+            View my React weather app project on Netlify
+          </a>
+          <br />
+          <a
+            className="project-link"
+            href="https://github.com/lucyj204/react-weather-app"
+          >
+            View the GitHub repository for my React weather app
           </a>
 
-          <h2 className="project-language">Top iOS Projects</h2>
+          <h3 className="project-title">My Portfolio Website</h3>
+          <p className="project-detail">
+            I decided to build the website you are looking at right now using
+            React and Typescript to refresh my knowledge. To view the source
+            code for the website please follow the link below.
+          </p>
+          <a
+            className="project-link"
+            href="https://github.com/lucyj204/portfolio-website"
+          >
+            View the GitHub repository for my website
+          </a>
+
+          <h2 className="project-language">iOS Projects</h2>
           <h3 className="project-title">Commingle</h3>
           <p className="project-detail">
             Commingle is the name I came up with for my creation of a group
@@ -130,20 +111,39 @@ export default function Projects() {
             my backend service and the Swift code for the app itself below.
           </p>
           <a
-            className="project-detail"
+            className="project-link"
             href="https://github.com/lucyj204/GroupEventsCalendar"
           >
-            Link to Swift source code for Commingle
+            View the GitHub repository for my Swift Commingle Project
           </a>
           <br />
           <a
-            className="project-detail"
+            className="project-link"
             href="https://github.com/lucyj204/GroupEventsCalendarBackend"
           >
-            Link to Typescript backend source code for Commingle
+            View the GitHub repository for my Typescript backend service for Commingle
           </a>
           <h3 className="project-title">Timer App</h3>
-          <p className="project-detail"> </p>
+          <p className="project-detail">
+            As part of my iOS Development Bootcamp, I completed a basic egg
+            timer app but I wanted to expand on the skills I learnt in this
+            module and put my own spin on a timer app, so I have started to work
+            on a multi-timer. I started this in order to have a finished app
+            that would be ready for the app store, whilst I can continue to work
+            on Commingle, which is a much larger task. Once the MVP is complete,
+            you will be able to use this app to create multiple timers that can
+            count down at the same time. Although there are other apps that can
+            perform this function on the app store, it is not yet a feature of
+            the timer on iPhone. I decided to create this app using SwiftUI in
+            order to learn more about programming in this way with Swift. I have
+            provided a link to my GitHub repository below.
+          </p>
+          <a
+            className="project-link"
+            href="https://github.com/lucyj204/TimersApp"
+          >
+            View the GitHub repository for my timer app
+          </a>
           <h3 className="project-title">AR Pokemon 3D</h3>
           <p className="project-detail"></p>
         </div>

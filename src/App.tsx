@@ -7,6 +7,7 @@ import Contact from "./Contact";
 import Certificates from "./Certificates";
 import Projects from "./Projects";
 import About from "./About";
+import Navigation from "./Navigation";
 
 function App() {
   return (
@@ -27,82 +28,7 @@ function Home() {
     <>
       <main>
         <div className="container">
-          <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <div className="container">
-              <button
-                className="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarTogglerDemo01"
-                aria-controls="navbarTogglerDemo01"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span className="navbar-toggler-icon"></span>
-              </button>
-              <div className="collapse navbar-collapse" id="navbarNav">
-                <ul className="navbar-nav">
-                  <li className="nav-item">
-                    <a className="nav-link" href="/">
-                      Home
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="/about">
-                      About Me
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="/projects">
-                      My Projects
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="/certificates">
-                      Certificates
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="/contact">
-                      Contact Me
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-          {/* <div className="NavigationItems">
-            <div className="row">
-              <div className="col">
-                <nav>
-                  <div className="d-block p-2 bg-light text-white">
-                    <Link to="/about">About Me</Link>
-                  </div>
-                </nav>
-              </div>
-              <div className="col">
-                <nav>
-                  <div className="d-block p-2 bg-light text-white">
-                    <Link to="/projects">My Projects</Link>
-                  </div>
-                </nav>
-              </div>
-              <div className="col">
-                <nav>
-                  <div className="d-block p-2 bg-light text-white">
-                    <Link to="/certificates">Certificates</Link>
-                  </div>
-                </nav>
-              </div>
-              <div className="col">
-                <nav>
-                  <div className="d-block p-2 bg-light text-white">
-                    <Link to="/contact">Contact Me</Link>
-                  </div>
-                </nav>
-              </div>
-            </div>
-          </div> */}
+          <Navigation />
           <div className="container-fluid">
             <div className="row">
               <div className="col-4">
@@ -113,24 +39,24 @@ function Home() {
               <div className="col-8">
                 <h2 className="About">Lucy Joyce</h2>
                 <div className="info-para">
-                <p>I am a web and iOS developer from London.</p>
-                <p>
-                  Please check out my story under the 'About Me' tab, my
-                  projects under the 'My Projects' tab and my certificates under the
-                  'Certificates' tab. To get in contact, please use the
-                  details below or the contact form under the 'Contact Me'
-                  tab above.
-                </p>
-                <p>
-                  Lucy Joyce on{" "}
-                  <a href="https://www.linkedin.com/in/lucy-joyce-597485166/">
-                    Linkedin
-                  </a>
-                </p>
-                <p>
-                  Lucy Joyce on <a href="https://github.com/lucyj204">GitHub</a>
-                </p>
-                <p>Email me at lucyj20490@gmail.com</p>
+                  <p>I am a web and iOS developer from London.</p>
+                  <p>
+                    Please check out my story under the 'About Me' tab, my
+                    projects under the 'My Projects' tab and my certificates
+                    under the 'Certificates' tab. To get in contact, please use
+                    the details below or the contact form under the 'Contact Me'
+                    tab above.
+                  </p>
+                  <p>
+                    Lucy Joyce on{" "}
+                    <a href="https://www.linkedin.com/in/lucy-joyce-597485166/">
+                      Linkedin
+                    </a>
+                  </p>
+                  <p>
+                    Lucy Joyce on{" "}
+                    <a href="https://github.com/lucyj204">GitHub</a>
+                  </p>
                 </div>
               </div>
             </div>
