@@ -37,6 +37,7 @@ export default function Certificates() {
               />
             </div>
           </div>
+          <hr/>
           <div className="row" id="certificate-rows">
             <div className="col">
               <img
