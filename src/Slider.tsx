@@ -59,7 +59,7 @@ import {Carousel} from "react-bootstrap";
 
 export default function Slider() {
   return (
-<Carousel>
+<Carousel variant="dark">
   <Carousel.Item>
     <img
       className="d-block w-100"

@@ -9,7 +9,7 @@ export default function Projects() {
         <h1 className="title">My Projects</h1>
         <div className="info-para">
           <h2 className="project-language">
-            JavaScript, TypeScript and React Projects
+            Web Development Projects
           </h2>
           <h3 className="project-title">SheCodes Basics Project</h3>
           <p className="project-detail">
@@ -82,7 +82,7 @@ export default function Projects() {
             View the GitHub repository for my website
           </a>
 
-          <h2 className="project-language">iOS Projects</h2>
+          <h2 className="project-language">iOS App Development Projects</h2>
           <h3 className="project-title">Commingle</h3>
           <p className="project-detail">
             Commingle is the name I came up with for my creation of a group

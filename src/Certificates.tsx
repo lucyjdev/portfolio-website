@@ -9,7 +9,7 @@ import Slider from "./Slider";
 
 export default function Certificates() {
   return (
-    <div>
+    <div className="container">
       <Navigation />
       
       <h1 className="title">Certificates</h1>

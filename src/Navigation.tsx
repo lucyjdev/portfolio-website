@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Navigation() {
   return (
     <div className="container">
-      <nav className="navbar navbar-expand-lg navbar-light sticky-top bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light sticky-top bg-light rounded-3">
         <button
           className="navbar-toggler"
           type="button"

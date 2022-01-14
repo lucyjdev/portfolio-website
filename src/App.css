@@ -1,6 +1,7 @@
 body {
-  background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%)
-    fixed;
+  /* background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%)
+    fixed; */
+    background: #07689F;
 }
 
 /* .nav-link {
@@ -18,7 +19,7 @@ body {
 
 .PersonalInfo {
   text-align: center;
-  color: #25161b;
+  color: #CEDDEF;
   /* background-color: #90AACB; */
 }
 
@@ -34,7 +35,7 @@ body {
 .About {
   margin-top: 50px;
   margin-bottom: 30px;
-  color: #25161b;
+  color: #CEDDEF;
 }
 
 /* certificates css */
@@ -43,13 +44,17 @@ body {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
   padding: 20px;
-  background-color: #d6e6f2;
-  color: #25161b;
+  background-color: #F8F9FA;
+  color: #07689F;
+  font-weight: bold;
+  border-radius: 15px;
 }
 
 .info-para {
-  color: #25161b;
+  color: #F8F9FA;
   text-align: justify;
 }
 
@@ -83,13 +88,13 @@ body {
 }
 
 .project-title {
-  color: #25161b;
+  color: #F8F9FA;
   margin-top: 40px;
   margin-bottom: 30px;
 }
 
 .project-link {
-  color: #1e549f;
+  color: #F8F9FA;
   font-weight: bold;
 }
 
@@ -100,3 +105,7 @@ body {
 /* .project-detail {
   margin: 20px;
 } */
+
+.linkedin {
+color: white;
+}
