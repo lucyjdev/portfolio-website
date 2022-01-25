@@ -1,5 +1,9 @@
 import * as React from "react";
 import Navigation from "./Navigation";
+import eeveeOddish from "./images/eevee-oddish.png";
+import basics1 from "./images/SheCodesBasic1.png";
+import basics2 from "./images/SheCodesBasic2.png";
+import commingleLogo from "./images/Commingle.png";
 
 export default function Projects() {
   return (
@@ -19,15 +23,16 @@ export default function Projects() {
             workshop. For more information on the workshop and to view my
             certificate check out the 'Certificates' section above.
           </p>
-          <p className="project-detail">
-            As I had not been introduced to GitHub at the start of my coding
-            journey, I have not provided a link to the source code however the
-            following link will take you to the landing page that I created.{" "}
-            <b>
-              Please click on the link to find a festival and check out the
-              changes depending on the continent that you provide.
-            </b>
-          </p>
+          <div className="row">
+            <div className="col">
+            <img className="basics-website" src={basics2} alt="SheCodes Basics workshop website"/>
+            </div>
+            <div className="col">
+              <img className="basics-website" src={basics1} alt="SheCodes Basics workshop website"/>
+            </div>
+          </div>
+          
+         
           <h3 className="project-title">SheCodes Plus Project</h3>
           <p className="project-detail">
             I moved on to SheCodes Plus following the basics workshop. This
@@ -110,6 +115,7 @@ export default function Projects() {
             on. I have included links below to the source code so far for both
             my backend service and the Swift code for the app itself below.
           </p>
+          <p className="project-detail">
           <a
             className="project-link"
             href="https://github.com/lucyj204/GroupEventsCalendar"
@@ -123,6 +129,8 @@ export default function Projects() {
           >
             View the GitHub repository for my Typescript backend service for Commingle
           </a>
+          </p>
+          <img className="commingle-logo" src={commingleLogo} alt="Commingle app"/>
           <h3 className="project-title">Timer App</h3>
           <p className="project-detail">
             As part of my iOS Development Bootcamp, I completed a basic egg
@@ -145,7 +153,15 @@ export default function Projects() {
             View the GitHub repository for my timer app
           </a>
           <h3 className="project-title">AR Pokemon 3D</h3>
-          <p className="project-detail"></p>
+          <p className="project-detail">
+
+            This project was completed with guidance as part of the iOS Devlopment Bootcamp as an introduction to augmented reality.
+            </p>
+            <p className="project-detail">
+            <a className="project-link"
+            href="https://github.com/lucyj204/Pokemon3D">View the GitHub repository here</a>
+          </p>
+          <img className="pokemon-image" src={eeveeOddish} alt="AR Pokemon 3D app on iPhone" />
         </div>
       </div>
     </div>

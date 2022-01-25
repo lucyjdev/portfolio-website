@@ -1,7 +1,8 @@
 body {
   /* background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%)
     fixed; */
-    background: #07689F;
+    background: linear-gradient(89.4deg, rgb(74, 77, 103) -4.3%, rgb(119, 125, 165) 102.1%)
+    fixed;
 }
 
 /* .nav-link {
@@ -14,28 +15,47 @@ body {
 }
 
 .Name {
-  margin-top: 50px;
+  margin-top: 90px;
+  margin-bottom: 30px;
+  font-size: 70px;
+  color: #f8f9fa;
+}
+
+.Headline {
+font-size: 35px;
+margin-bottom: 20px;
+}
+
+.Website-info {
+  font-size: 20px;
+
 }
 
 .PersonalInfo {
   text-align: center;
-  color: #CEDDEF;
-  /* background-color: #90AACB; */
+  color: #f8f9fa;
+
 }
 
 .Photo {
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 5px;
+  border: 2px solid #f8f9fa;
+  border-radius: 50px;
+  box-shadow: 3px 3px 5px rgb(0 0 0 / 0.4);
+  padding: 2px;
   margin-bottom: 20px;
+  margin-right: 20px;
   margin-top: 50px;
-  width: 250px;
+  width: 350px;
+}
+
+.thumbnail {
+  width: 50px;
+  margin: 20px;
 }
 
 .About {
-  margin-top: 50px;
-  margin-bottom: 30px;
-  color: #CEDDEF;
+  margin-bottom: 15px;
+  color: #f8f9fa;
 }
 
 /* certificates css */
@@ -47,14 +67,15 @@ body {
   margin-left: 200px;
   margin-right: 200px;
   padding: 20px;
-  background-color: #F8F9FA;
-  color: #07689F;
+  background-color: #f8f9fa;
+  color: #4D516B;
   font-weight: bold;
   border-radius: 15px;
+  box-shadow: 3px 3px 5px rgb(0 0 0 / 0.4);
 }
 
 .info-para {
-  color: #F8F9FA;
+  color: #f8f9fa;
   text-align: justify;
 }
 
@@ -88,13 +109,13 @@ body {
 }
 
 .project-title {
-  color: #F8F9FA;
+  color: #f8f9fa;
   margin-top: 40px;
   margin-bottom: 30px;
 }
 
 .project-link {
-  color: #F8F9FA;
+  color: #f8f9fa;
   font-weight: bold;
 }
 
@@ -102,10 +123,18 @@ body {
   color: #fbb040;
 }
 
+.basics-website {
+  width: 450px;
+}
+
+.pokemon-image {
+  width: 450px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 20px;
+}
+
 /* .project-detail {
   margin: 20px;
 } */
 
-.linkedin {
-color: white;
-}

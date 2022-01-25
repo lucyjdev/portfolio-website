@@ -22,7 +22,9 @@ export default function About() {
               certificates and final projects can be found on the links at the
               top of this page, and further information on the workshops and
               course content can be found{" "}
-              <a href="https://www.shecodes.io/">here</a>.
+              <a 
+              className="project-link"
+              href="https://www.shecodes.io/">here</a>.
             </p>
             <p>
               After I completed the SheCodes workshops in January 2021, I
