@@ -1,20 +1,106 @@
 import * as React from "react";
 import Navigation from "./Navigation";
 import eeveeOddish from "./images/eevee-oddish.png";
-import basics1 from "./images/SheCodesBasic1.png";
-import basics2 from "./images/SheCodesBasic2.png";
+// import dnbpage from "./images/dnb-page.png";
+// import dnbpage2 from "./images/dnb-page2.png";
 import commingleLogo from "./images/Commingle.png";
+import reactWeather from "./images/react-weather-app.png";
+import weatherApp from "./images/weather-app.png";
+import gitHub from "./images/github.png";
+import netlifyLogo from "./images/netlify-logo.png";
+import Card from "react-bootstrap/Card";
+import CardGroup from "react-bootstrap/CardGroup";
 
 export default function Projects() {
   return (
     <div>
-     <Navigation/>
+      <Navigation />
       <div className="container">
         <h1 className="title">My Projects</h1>
+        <h2 className="project-language">Front-End Projects</h2>
+        <CardGroup>
+          
+          <Card>
+            <Card.Img variant="bottom" src={weatherApp} />
+            <Card.Body>
+              <Card.Title>SheCodes Plus Workshop Final Project</Card.Title>
+              <Card.Text>
+                I moved on to SheCodes Plus following the basics workshop. This
+                workshop was more extensive than the basics workshop and covered
+                more advanced topics of Javascript, HTML and CSS. My final
+                project for this workshop involved building a weather app using
+                JavaScript. I used AJAX to connect with the API from
+                OpenWeatherMap to provide live data for searched cities and
+                provide 3 hour forecast data. I have provided a link to both my
+                GitHub repository for the project and my Netlify site below.{" "}
+              </Card.Text>
+            </Card.Body>
+            <Card.Footer>
+              <div className="row">
+                <div className="col">
+                  <a href="https://github.com/lucyj204/weather-app-project">
+                    <img
+                      className="thumbnail"
+                      src={gitHub}
+                      alt="GitHub repository"
+                    />
+                  </a>
+                </div>
+                <div className="col">
+                  <a href="https://sleepy-panini-bdebb2.netlify.app/">
+                    <img
+                      className="logo"
+                      src={netlifyLogo}
+                      alt="Netlify hosting"
+                    />
+                  </a>
+                </div>
+              </div>
+            </Card.Footer>
+          </Card>
+          <Card>
+            <Card.Img variant="top" src={reactWeather} />
+            <Card.Body>
+              <Card.Title>SheCodes React Workshop Final Project</Card.Title>
+              <Card.Text>
+                I started the 8 week SheCodes React workshop in November 2020.
+                The workshop developed on the knowledge and skills I gained in
+                the previous two workshops and introduced React as a a toolkit
+                on top of Javascript. I completed assignments each week and a
+                final project. The final project was to use React to create a
+                weather app with a search engine and API integration. As part of
+                the project, I used Netlify to host my weather app. I have
+                provided a link to both my GitHub repository for the project and
+                my Netlify site below.
+              </Card.Text>
+            </Card.Body>
+            <Card.Footer>
+              <div className="row">
+                <div className="col">
+                  <a href="https://github.com/lucyj204/react-weather-app">
+                    <img
+                      className="thumbnail"
+                      src={gitHub}
+                      alt="GitHub repository"
+                    />
+                  </a>
+                </div>
+                <div className="col">
+                  <a href="https://hardcore-varahamihira-b12763.netlify.app/">
+                    <img
+                      className="logo"
+                      src={netlifyLogo}
+                      alt="Netlify hosting"
+                    />
+                  </a>
+                </div>
+              </div>
+            </Card.Footer>
+          </Card>
+        </CardGroup>
         <div className="info-para">
-          <h2 className="project-language">
-            Web Development Projects
-          </h2>
+          {/* <h2 className="project-language">Front-End Projects</h2>
+
           <h3 className="project-title">SheCodes Basics Project</h3>
           <p className="project-detail">
             I completed this landing page for the final project for the SheCodes
@@ -25,14 +111,21 @@ export default function Projects() {
           </p>
           <div className="row">
             <div className="col">
-            <img className="basics-website" src={basics2} alt="SheCodes Basics workshop website"/>
+              <img
+                className="basics-website"
+                src={dnbpage}
+                alt="SheCodes Basics workshop website"
+              />
             </div>
             <div className="col">
-              <img className="basics-website" src={basics1} alt="SheCodes Basics workshop website"/>
+              <img
+                className="basics-website"
+                src={dnbpage2}
+                alt="SheCodes Basics workshop website"
+              />
             </div>
           </div>
-          
-         
+
           <h3 className="project-title">SheCodes Plus Project</h3>
           <p className="project-detail">
             I moved on to SheCodes Plus following the basics workshop. This
@@ -43,12 +136,22 @@ export default function Projects() {
             live data for searched cities and provide 3 hour forecast data.
             Check out the link to the source code below.{" "}
           </p>
-          <a
-            className="project-link"
-            href="https://github.com/lucyj204/weather-app-project"
-          >
-            View the GitHub repository for my Weather App Project
-          </a>
+          <p>
+            <a
+              className="project-link"
+              href="https://github.com/lucyj204/weather-app-project"
+            >
+              View the GitHub repository for my Weather App Project
+            </a>
+            <br />
+            <a
+              className="project-link"
+              href="https://sleepy-panini-bdebb2.netlify.app/"
+            >
+              View my React weather app project on Netlify
+            </a>
+          </p>
+          <img className="weather-app" src={weatherApp} alt="Weather App" />
           <h3 className="project-title">SheCodes React Project</h3>
           <p className="project-detail">
             I started the 8 week SheCodes React workshop in November 2020. The
@@ -60,12 +163,20 @@ export default function Projects() {
             Netlify to host my weather app. I have provided a link to both my
             GitHub repository for the project and my Netlify site below.
           </p>
-          <a
-            className="project-link"
-            href="https://hardcore-varahamihira-b12763.netlify.app/"
-          >
-            View my React weather app project on Netlify
-          </a>
+          <p>
+            <a
+              className="project-link"
+              href="https://hardcore-varahamihira-b12763.netlify.app/"
+            >
+              View my React weather app project on Netlify
+            </a>
+          </p>
+          <img
+            className="react-weather-image"
+            src={reactWeather}
+            alt="react weather app"
+          />
+
           <br />
           <a
             className="project-link"
@@ -85,7 +196,7 @@ export default function Projects() {
             href="https://github.com/lucyj204/portfolio-website"
           >
             View the GitHub repository for my website
-          </a>
+          </a> */}
 
           <h2 className="project-language">iOS App Development Projects</h2>
           <h3 className="project-title">Commingle</h3>
@@ -116,21 +227,26 @@ export default function Projects() {
             my backend service and the Swift code for the app itself below.
           </p>
           <p className="project-detail">
-          <a
-            className="project-link"
-            href="https://github.com/lucyj204/GroupEventsCalendar"
-          >
-            View the GitHub repository for my Swift Commingle Project
-          </a>
-          <br />
-          <a
-            className="project-link"
-            href="https://github.com/lucyj204/GroupEventsCalendarBackend"
-          >
-            View the GitHub repository for my Typescript backend service for Commingle
-          </a>
+            <a
+              className="project-link"
+              href="https://github.com/lucyj204/GroupEventsCalendar"
+            >
+              View the GitHub repository for my Swift Commingle Project
+            </a>
+            <br />
+            <a
+              className="project-link"
+              href="https://github.com/lucyj204/GroupEventsCalendarBackend"
+            >
+              View the GitHub repository for my Typescript backend service for
+              Commingle
+            </a>
           </p>
-          <img className="commingle-logo" src={commingleLogo} alt="Commingle app"/>
+          <img
+            className="commingle-logo"
+            src={commingleLogo}
+            alt="Commingle app"
+          />
           <h3 className="project-title">Timer App</h3>
           <p className="project-detail">
             As part of my iOS Development Bootcamp, I completed a basic egg
@@ -154,14 +270,24 @@ export default function Projects() {
           </a>
           <h3 className="project-title">AR Pokemon 3D</h3>
           <p className="project-detail">
-
-            This project was completed with guidance as part of the iOS Devlopment Bootcamp as an introduction to augmented reality.
-            </p>
-            <p className="project-detail">
-            <a className="project-link"
-            href="https://github.com/lucyj204/Pokemon3D">View the GitHub repository here</a>
+            This project was completed with guidance as part of the iOS
+            Devlopment Bootcamp as an introduction to augmented reality. View
+            the GitHub repository using the link below.
           </p>
-          <img className="pokemon-image" src={eeveeOddish} alt="AR Pokemon 3D app on iPhone" />
+          <p className="project-detail">
+            <a href="https://github.com/lucyj204">
+              <img
+                className="thumbnail"
+                src={gitHub}
+                alt="Link to GitHub profile"
+              />
+            </a>
+          </p>
+          <img
+            className="pokemon-image"
+            src={eeveeOddish}
+            alt="AR Pokemon 3D app on iPhone"
+          />
         </div>
       </div>
     </div>

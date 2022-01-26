@@ -2,7 +2,8 @@ import * as React from "react";
 import { Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import profileImage from "./lucy.png";
+// import profileImage from "./lucy.png";
+import profileImage2 from "./lucyjoyce.png";
 import Contact from "./Contact";
 import Certificates from "./Certificates";
 import Projects from "./Projects";
@@ -10,6 +11,7 @@ import About from "./About";
 import Navigation from "./Navigation";
 import linkedin from "./images/linkedin.png";
 import gitHub from "./images/github.png";
+
 
 function App() {
   return (
@@ -35,16 +37,19 @@ function Home() {
             <div className="row">
               <div className="col col-lg-4">
                 <div className="PersonalInfo">
-                  <img className="Photo" src={profileImage} alt="Lucy Joyce" />
+                  <img className="Photo" src={profileImage2} alt="Lucy Joyce" />
                 </div>
               </div>
               <div className="col col-lg-8">
                 <h3 className="Name">Lucy Joyce</h3>
                 <div className="About">
                   <h5 className="Headline">
-                    Junior web and iOS developer based in London.
+                    Junior Front-End and iOS Developer based in London.
                   </h5>
-                  <h4 className="Website-info">Please explore my website using the navigation above and check out my LinkedIn and GitHub profiles below.</h4>
+                  <h4 className="Website-info">
+                    Please explore my website using the navigation above and
+                    check out my LinkedIn and GitHub profiles below.
+                  </h4>
 
                   <div className="row">
                     <div className="col col-lg-1">
@@ -70,7 +75,9 @@ function Home() {
                       </p>
                     </div>
                   </div>
-                  <p>Email me at <i>lucy@lucyjoyce.dev</i></p>
+                  <p className="email">
+                    Email me at <i>lucy@lucyjoyce.dev</i>
+                  </p>
                 </div>
               </div>
             </div>

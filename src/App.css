@@ -14,9 +14,14 @@ body {
   margin-top: 10px;
 }
 
+.Navigation-bar {
+  padding: 50px;
+}
+
 .Name {
-  margin-top: 90px;
+  margin-top: 50px;
   margin-bottom: 30px;
+  margin-left: 20px;
   font-size: 70px;
   color: #f8f9fa;
 }
@@ -24,10 +29,12 @@ body {
 .Headline {
 font-size: 35px;
 margin-bottom: 20px;
+
 }
 
 .Website-info {
   font-size: 20px;
+ 
 
 }
 
@@ -38,14 +45,14 @@ margin-bottom: 20px;
 }
 
 .Photo {
-  border: 2px solid #f8f9fa;
-  border-radius: 50px;
-  box-shadow: 3px 3px 5px rgb(0 0 0 / 0.4);
+  /* border: 2px solid #f8f9fa;
+  border-radius: 30px;
+  box-shadow: 3px 3px 5px rgb(0 0 0 / 0.4); */
   padding: 2px;
   margin-bottom: 20px;
   margin-right: 20px;
   margin-top: 50px;
-  width: 350px;
+  width: 250px;
 }
 
 .thumbnail {
@@ -53,8 +60,14 @@ margin-bottom: 20px;
   margin: 20px;
 }
 
+.logo {
+  width: 150px;
+  margin-top: 15px;
+}
+
 .About {
   margin-bottom: 15px;
+  margin-left: 20px;
   color: #f8f9fa;
 }
 
@@ -64,9 +77,9 @@ margin-bottom: 20px;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
-  margin-left: 200px;
-  margin-right: 200px;
-  padding: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 30px;
   background-color: #f8f9fa;
   color: #4D516B;
   font-weight: bold;
@@ -105,13 +118,21 @@ margin-bottom: 20px;
 .project-language {
   text-align: center;
   margin: 50px;
-  text-decoration: underline;
+  padding: 20px;
+  background-color: #f8f9fa;
+  color: #4D516B;
+  font-weight: bold;
+  border-radius: 15px;
 }
 
 .project-title {
-  color: #f8f9fa;
   margin-top: 40px;
   margin-bottom: 30px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  color: #4D516B;
+  font-weight: bold;
+  border-radius: 15px;
 }
 
 .project-link {
@@ -124,7 +145,7 @@ margin-bottom: 20px;
 }
 
 .basics-website {
-  width: 450px;
+  width: 350px;
 }
 
 .pokemon-image {
@@ -134,7 +155,17 @@ margin-bottom: 20px;
   margin: 20px;
 }
 
-/* .project-detail {
-  margin: 20px;
-} */
+.react-weather-image {
+  width: 350px;
+}
+
+.weather-app {
+  width: 350px;
+}
+
+/* contact-form */
+
+.form-label {
+  color: #f8f9fa;
+}
 

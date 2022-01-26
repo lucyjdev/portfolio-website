@@ -3,7 +3,6 @@ import basicsCert from "./ShecodesBasics.png";
 import frontEndCert from "./frontEndDevCert.png";
 import reactCert from "./reactDevCert.png";
 import iOSCert from "./iOSBootcamp.png";
-import { useState } from "react";
 import {Carousel} from "react-bootstrap";
 
 
