@@ -1,8 +1,8 @@
 import React from "react";
-import basicsCert from "./ShecodesBasics.png";
-import frontEndCert from "./frontEndDevCert.png";
-import reactCert from "./reactDevCert.png";
-import iOSCert from "./iOSBootcamp.png";
+import basicsCert from "./images/ShecodesBasics.png";
+import frontEndCert from "./images/frontEndDevCert.png";
+import reactCert from "./images/reactDevCert.png";
+import iOSCert from "./images/iOSBootcamp.png";
 import {Carousel} from "react-bootstrap";
 
 

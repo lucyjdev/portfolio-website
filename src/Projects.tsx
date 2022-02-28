@@ -152,7 +152,7 @@ export default function Projects() {
             </Card.Body>
           </Card>
         </CardGroup>
-        <h3 className="project-title">Further projects coming soon</h3>
+        <h3 className="project-title">Further projects coming soon 👩‍💻</h3>
       </div>
     </div>
   );
