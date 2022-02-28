@@ -55,6 +55,15 @@ margin-bottom: 20px;
   width: 250px;
 }
 
+.link {
+  color: #f8f9fa;
+  font-weight: bold;
+}
+
+.link:hover {
+  color: #fbb040;
+}
+
 .thumbnail {
   width: 50px;
   margin: 20px;
@@ -77,14 +86,14 @@ margin-bottom: 20px;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
-  margin-left: 150px;
-  margin-right: 150px;
+  /* margin-left: 150px;
+  margin-right: 150px; */
   padding: 30px;
   background-color: #f8f9fa;
   color: #4D516B;
   font-weight: bold;
   border-radius: 15px;
-  box-shadow: 3px 3px 5px rgb(0 0 0 / 0.4);
+  box-shadow: 3px 3px 5px rgba(134, 115, 115, 0.4);
 }
 
 .info-para {
@@ -133,15 +142,6 @@ margin-bottom: 20px;
   color: #4D516B;
   font-weight: bold;
   border-radius: 15px;
-}
-
-.project-link {
-  color: #f8f9fa;
-  font-weight: bold;
-}
-
-.project-link:hover {
-  color: #fbb040;
 }
 
 .basics-website {

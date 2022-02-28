@@ -7,12 +7,11 @@ export default function Certificates() {
   return (
     <div className="container">
       <Navigation />
-      
       <h1 className="title">Certificates</h1>
-      <Slider/>
+      <Slider />
       <div className="info-para">
         <div className="container-fluid">
-        <h3 className="project-title">Course Detail</h3>
+          <h3 className="project-title">Course Detail</h3>
           <div className="row" id="certificate-rows">
             <div className="col">
               <h3>SheCodes Introduction to Coding</h3>
@@ -25,14 +24,16 @@ export default function Certificates() {
                 final project. A link to this website can be found in the
                 projects section of my website.
               </p>
-              <a href="https://www.shecodes.io/certificates/40f353a498faeb8fc59832e6d2e752d6">
+              <a
+                className="link"
+                href="https://www.shecodes.io/certificates/40f353a498faeb8fc59832e6d2e752d6"
+              >
                 View verified certificate
               </a>
             </div>
           </div>
-          <hr/>
+          <hr />
           <div className="row" id="certificate-rows">
-           
             <div className="col">
               <h3>SheCodes Plus Workshop</h3>
               <p>
@@ -45,13 +46,16 @@ export default function Certificates() {
                 link to my final project can be found under the projects section
                 above.
               </p>
-              <a href="https://www.shecodes.io/certificates/11f56e5b1674d9ffa5688086518f599a">
+              <a
+                className="link"
+                href="https://www.shecodes.io/certificates/11f56e5b1674d9ffa5688086518f599a"
+              >
                 View verified certificate
               </a>
             </div>
           </div>
         </div>
-        <hr/>
+        <hr />
         <div className="row" id="certificate-rows">
           <div className="col">
             <h3>SheCodes React Workshop</h3>
@@ -70,15 +74,16 @@ export default function Certificates() {
               weather app in React and this can be found under the projects
               section above.
             </p>
-            <a href="https://www.shecodes.io/certificates/2f60992402a11738860ab607c86441a7">
+            <a
+              className="link"
+              href="https://www.shecodes.io/certificates/2f60992402a11738860ab607c86441a7"
+            >
               View verified certificate
             </a>
           </div>
-       
         </div>
-        <hr/>
+        <hr />
         <div className="row" id="certificate-rows">
-         
           <div className="col">
             <h3>iOS and Swift - The Complete iOS App Development Bootcamp</h3>
             <p>
@@ -97,12 +102,18 @@ export default function Certificates() {
             <p>
               For further details on the modules covered in this course, please
               see the{" "}
-              <a href="https://www.udemy.com/course/ios-13-app-development-bootcamp/">
+              <a
+                className="link"
+                href="https://www.udemy.com/course/ios-13-app-development-bootcamp/"
+              >
                 course content
               </a>{" "}
               on Udemy.
             </p>
-            <a href="https://www.udemy.com/certificate/UC-713a6b81-5bd3-4b58-bb4f-4e376fc765b4/">
+            <a
+              className="link"
+              href="https://www.udemy.com/certificate/UC-713a6b81-5bd3-4b58-bb4f-4e376fc765b4/"
+            >
               View verified certificate
             </a>
           </div>
