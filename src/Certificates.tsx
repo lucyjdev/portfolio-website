@@ -1,9 +1,5 @@
 import * as React from "react";
 import "./App.css";
-import basicsCert from "./ShecodesBasics.png";
-import frontEndCert from "./frontEndDevCert.png";
-import reactCert from "./reactDevCert.png";
-import iOSCert from "./iOSBootcamp.png";
 import Navigation from "./Navigation";
 import Slider from "./Slider";
 
@@ -16,6 +12,7 @@ export default function Certificates() {
       <Slider/>
       <div className="info-para">
         <div className="container-fluid">
+        <h3 className="project-title">Course Detail</h3>
           <div className="row" id="certificate-rows">
             <div className="col">
               <h3>SheCodes Introduction to Coding</h3>
@@ -32,23 +29,10 @@ export default function Certificates() {
                 View verified certificate
               </a>
             </div>
-            <div className="col">
-              <img
-                className="BasicsCert"
-                src={basicsCert}
-                alt="SheCodes Basics Workshop Certificate"
-              />
-            </div>
           </div>
           <hr/>
           <div className="row" id="certificate-rows">
-            <div className="col">
-              <img
-                className="FrontEndDevCert"
-                src={frontEndCert}
-                alt="Front End Devlopment Certificate"
-              />
-            </div>
+           
             <div className="col">
               <h3>SheCodes Plus Workshop</h3>
               <p>
@@ -67,6 +51,7 @@ export default function Certificates() {
             </div>
           </div>
         </div>
+        <hr/>
         <div className="row" id="certificate-rows">
           <div className="col">
             <h3>SheCodes React Workshop</h3>
@@ -89,22 +74,11 @@ export default function Certificates() {
               View verified certificate
             </a>
           </div>
-          <div className="col">
-            <img
-              className="ReactDevCert"
-              src={reactCert}
-              alt="React Devlopment Certificate"
-            />
-          </div>
+       
         </div>
+        <hr/>
         <div className="row" id="certificate-rows">
-          <div className="col">
-            <img
-              className="iOSCert"
-              src={iOSCert}
-              alt="iOS and Swift Development Bootcamp Certificate"
-            />
-          </div>
+         
           <div className="col">
             <h3>iOS and Swift - The Complete iOS App Development Bootcamp</h3>
             <p>
