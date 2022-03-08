@@ -1,41 +1,64 @@
 body {
-  /* background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%)
-    fixed; */
     background: linear-gradient(89.4deg, rgb(74, 77, 103) -4.3%, rgb(119, 125, 165) 102.1%)
     fixed;
+    margin-bottom: 140px;
 }
 
-/* .nav-link {
- 
-} */
+.nav-link {
+  color: #f8f9fa;
+  font-size: 21px;
+  font-weight: bold;
+  position: sticky;
+}
 
-.NavigationItems {
-  /* background-color: #90AACB; */
-  margin: 50px;
+.nav-link:hover {
+  color: #5F6384;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 3px 3px 5px rgb(0 0 0 / 0.4);
+  transition: ease-in-out 0.1s;
+}
+
+.nav-item {
+  margin: 14px;
+}
+
+.navbar-toggler {
+  color: #f8f9fa;
 }
 
 .Navigation-bar {
+  text-align: left;
   padding-top: 30px;
+}
+
+.footer {
+  border-top: 1px, solid, #fbb040;
+  text-align: center;
+  padding: 20px;
+  margin-top: 100px;
+  left: 0;
+  bottom: 0;
+  height: 120px;
+  width: 100%;
 }
 
 .Name {
   margin-top: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   margin-left: 20px;
-  font-size: 70px;
+  font-size: 56px;
   color: #f8f9fa;
 }
 
 .Headline {
-font-size: 35px;
-margin-bottom: 20px;
+margin-bottom: 50px;
+font-size: 44px;
 
 }
 
 .Website-info {
   font-size: 20px;
- 
-
 }
 
 .PersonalInfo {
@@ -45,14 +68,14 @@ margin-bottom: 20px;
 }
 
 .Photo {
-  /* border: 2px solid #f8f9fa;
+  border: 2px solid #f8f9fa;
   border-radius: 30px;
-  box-shadow: 3px 3px 5px rgb(0 0 0 / 0.4); */
+  box-shadow: 3px 3px 5px rgb(0 0 0 / 0.4);
   padding: 2px;
   margin-bottom: 20px;
   margin-right: 20px;
-  margin-top: 50px;
-  width: 250px;
+  margin-top: 40px;
+  width: 300px;
 }
 
 .link {

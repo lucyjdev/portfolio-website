@@ -5,9 +5,9 @@ export default function Navigation() {
   return (
     <div className="container">
       <div className="Navigation-bar">
-        <nav className="navbar navbar-expand-lg navbar-light sticky-top bg-light rounded-3">
+        <nav className="navbar navbar-expand-lg">
           <button
-            className="navbar-toggler"
+            className="navbar-dark navbar-toggler"
             type="button"
             data-toggle="collapse"
             data-target="#navbarNav"
