@@ -2,6 +2,7 @@ import * as React from "react";
 import "./App.css";
 import Navigation from "./Navigation";
 import Slider from "./Slider";
+import Footer from "./Footer";
 
 export default function Certificates() {
   return (
@@ -119,6 +120,7 @@ export default function Certificates() {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }

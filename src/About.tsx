@@ -1,5 +1,6 @@
 import * as React from "react";
 import Navigation from "./Navigation";
+import Footer from "./Footer";
 
 export default function About() {
   return (
@@ -57,6 +58,7 @@ export default function About() {
           </p>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

@@ -1,9 +1,9 @@
 import * as React from "react";
 import Navigation from "./Navigation";
+import Footer from "./Footer";
 import timerScreenshot1 from "./images/timerScreenshot-portrait.png";
 import timerScreenshot2 from "./images/timerScreenshot-3-portrait.png";
 import timerScreenshot3 from "./images/timerScreenshot-4-portrait.png";
-
 import reactWeather from "./images/react-weather-app.png";
 import weatherApp from "./images/weather-app.png";
 import gitHub from "./images/github.png";
@@ -112,11 +112,7 @@ export default function Projects() {
                 learned as part of the course. The app functions as a basic
                 timer at present however, I am continuing to develop this to
                 have a multi timer function and a unique UI. The timer currently
-                meows when the timer is over, hence the name Kitty Timer. There
-                is still a huge amount of work to do on this app but it has been
-                a great experience developing this on my own and using the
-                skills I learned in my course to solve problems I have
-                encountered and to expand my knowledge of Swift.{" "}
+                meows when the timer is over, hence the name Kitty Timer. {" "}
               </Card.Text>
             </Card.Body>
           </Card>
@@ -152,8 +148,9 @@ export default function Projects() {
             </Card.Body>
           </Card>
         </CardGroup>
-        <h3 className="project-title">Further projects coming soon 👩‍💻</h3>
+        <h3 className="project-title">More projects coming soon 👩‍💻</h3>
       </div>
+      <Footer />
     </div>
   );
 }
