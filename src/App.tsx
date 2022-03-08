@@ -2,8 +2,7 @@ import * as React from "react";
 import { Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-// import profileImage from "./images/lucy.png";
-import profileImage2 from "./images/lucyjoyce.png";
+import profileImage from "./images/lucy2.png";
 import Contact from "./Contact";
 import Certificates from "./Certificates";
 import Projects from "./Projects";
@@ -11,7 +10,8 @@ import About from "./About";
 import Navigation from "./Navigation";
 import linkedin from "./images/linkedin.png";
 import gitHub from "./images/github.png";
-
+import email from "./images/email-icon.png";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -37,47 +37,50 @@ function Home() {
             <div className="row">
               <div className="col col-lg-4">
                 <div className="PersonalInfo">
-                  <img className="Photo" src={profileImage2} alt="Lucy Joyce" />
+                  <img className="Photo" src={profileImage} alt="Lucy Joyce" />
                 </div>
               </div>
               <div className="col col-lg-8">
-                <h3 className="Name">Lucy Joyce</h3>
+                <h1 className="Name">Lucy Joyce</h1>
                 <div className="About">
-                  <h5 className="Headline">
+                  <h2 className="Headline">
                     Junior Front-End and iOS Developer based in London.
-                  </h5>
-                  <h4 className="Website-info">
-                    Please explore my website using the navigation above and
-                    check out my LinkedIn and GitHub profiles below.
-                  </h4>
-
-                  <div className="row">
-                    <div className="col col-lg-1">
-                      <p>
-                        <a href="https://www.linkedin.com/in/lucy-joyce-597485166/">
-                          <img
-                            className="thumbnail"
-                            src={linkedin}
-                            alt="Link to LinkedIn profile"
-                          />
-                        </a>
-                      </p>
-                    </div>
-                    <div className="col col-lg-1">
-                      <p>
-                        <a href="https://github.com/lucyj204">
-                          <img
-                            className="thumbnail"
-                            src={gitHub}
-                            alt="Link to GitHub profile"
-                          />
-                        </a>
-                      </p>
-                    </div>
+                  </h2>
+                </div>
+                <div className="row">
+                  <div className="col">
+                    <p>
+                      <a href="https://www.linkedin.com/in/lucy-joyce-597485166/">
+                        <img
+                          className="thumbnail"
+                          src={linkedin}
+                          alt="Link to LinkedIn profile"
+                        />
+                      </a>
+                    </p>
                   </div>
-                  <p className="email">
-                    Email me at <i>lucy@lucyjoyce.dev</i>
-                  </p>
+                  <div className="col">
+                    <p>
+                      <a href="https://github.com/lucyj204">
+                        <img
+                          className="thumbnail"
+                          src={gitHub}
+                          alt="Link to GitHub profile"
+                        />
+                      </a>
+                    </p>
+                  </div>
+                  <div className="col">
+                    <p>
+                      <a href="mailto:lucy@lucyjoyce.dev">
+                        <img
+                          className="thumbnail"
+                          src={email}
+                          alt="Link to email"
+                        />
+                      </a>
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
