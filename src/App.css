@@ -1,81 +1,26 @@
 body {
-    background: linear-gradient(89.4deg, rgb(74, 77, 103) -4.3%, rgb(119, 125, 165) 102.1%)
+  background: linear-gradient(
+      89.4deg,
+      rgb(74, 77, 103) -4.3%,
+      rgb(119, 125, 165) 102.1%
+    )
     fixed;
-    margin-bottom: 140px;
+  margin-bottom: 140px;
 }
 
-.nav-link {
-  color: #f8f9fa;
-  font-size: 21px;
-  font-weight: bold;
-  position: sticky;
-}
-
-.nav-link:hover {
-  color: #5F6384;
-  background-color: #f8f9fa;
-  border-radius: 8px;
-  box-shadow: 3px 3px 5px rgb(0 0 0 / 0.4);
-  transition: ease-in-out 0.1s;
-}
-
-.nav-item {
-  margin: 14px;
-}
-
-.navbar-toggler {
-  color: #f8f9fa;
-}
-
-.Navigation-bar {
+.title {
   text-align: left;
-  padding-top: 30px;
-}
-
-.footer {
-  border-top: 1px, solid, #fbb040;
-  text-align: center;
-  padding: 20px;
-  margin-top: 100px;
-  left: 0;
-  bottom: 0;
-  height: 120px;
-  width: 100%;
-}
-
-.Name {
-  margin-top: 50px;
-  margin-bottom: 40px;
-  margin-left: 20px;
-  font-size: 56px;
+  margin-top: 20px;
+  margin-bottom: 50px;
   color: #f8f9fa;
+  font-weight: bold;
 }
 
-.Headline {
-margin-bottom: 50px;
-font-size: 44px;
-
-}
-
-.Website-info {
-  font-size: 20px;
-}
-
-.PersonalInfo {
-  text-align: center;
+.info-para {
   color: #f8f9fa;
-
-}
-
-.Photo {
-  border: 2px solid #f8f9fa;
-  border-radius: 30px;
-  box-shadow: 3px 3px 5px rgb(0 0 0 / 0.4);
-  padding: 2px;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  margin-top: 40px;
-  width: 300px;
+  text-align: justify;
+  font-size: large;
+  margin-top: 25px;
 }
 
 .link {
@@ -97,46 +42,88 @@ font-size: 44px;
   margin-top: 15px;
 }
 
-.About {
+/* navigation css */
+
+.nav-link {
+  color: #f8f9fa;
+  font-size: 21px;
+  font-weight: bold;
+  position: sticky;
+}
+
+.nav-link:hover {
+  color: #5f6384;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 3px 3px 5px rgb(0 0 0 / 0.4);
+  transition: ease-in-out 0.1s;
+}
+
+.nav-item {
+  margin: 14px;
+}
+
+.navbar-toggler {
+  color: #f8f9fa;
+}
+
+.navigation-bar {
+  text-align: left;
+  padding-top: 30px;
+}
+
+/* footer css */
+
+.footer {
+  border-top: 1px, solid, #f8f9fa;
+  text-align: center;
+  margin-top: 100px;
+  height: 50px;
+  width: 100%;
+}
+
+/* homepage css */
+
+.name {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  font-size: 56px;
+  color: #f8f9fa;
+}
+
+.website-info {
+  font-size: 20px;
+}
+
+.personal-info {
+  text-align: center;
+  color: #f8f9fa;
+}
+
+.photo {
+  border: 2px solid #f8f9fa;
+  border-radius: 30px;
+  box-shadow: 3px 3px 5px rgb(0 0 0 / 0.4);
+  padding: 2px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+  width: 300px;
+}
+
+.headline {
   margin-bottom: 15px;
   margin-left: 20px;
+  font-size: 50px;
   color: #f8f9fa;
 }
 
 /* certificates css */
 
-.title {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  /* margin-left: 150px;
-  margin-right: 150px; */
-  padding: 30px;
-  background-color: #f8f9fa;
-  color: #4D516B;
-  font-weight: bold;
-  border-radius: 15px;
-  box-shadow: 3px 3px 5px rgba(134, 115, 115, 0.4);
-}
-
-.info-para {
+.about-title {
   color: #f8f9fa;
-  text-align: justify;
-}
-
-.BasicsCert {
-  width: 550px;
-}
-.FrontEndDevCert {
-  width: 550px;
-}
-
-.ReactDevCert {
-  width: 550px;
-}
-
-.iOSCert {
-  width: 550px;
+  margin-bottom: 30px;
 }
 
 #certificate-rows {
@@ -148,42 +135,18 @@ font-size: 44px;
 /* projects css */
 
 .project-language {
-  text-align: center;
-  margin: 50px;
-  padding: 20px;
-  background-color: #f8f9fa;
-  color: #4D516B;
+  text-align: left;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  color: #f8f9fa;
   font-weight: bold;
-  border-radius: 15px;
 }
 
 .project-title {
   margin-top: 40px;
   margin-bottom: 30px;
-  padding: 20px;
-  background-color: #f8f9fa;
-  color: #4D516B;
+  color: #f8f9fa;
   font-weight: bold;
-  border-radius: 15px;
-}
-
-.basics-website {
-  width: 350px;
-}
-
-.pokemon-image {
-  width: 450px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  margin: 20px;
-}
-
-.react-weather-image {
-  width: 350px;
-}
-
-.weather-app {
-  width: 350px;
 }
 
 /* contact-form */
@@ -191,4 +154,3 @@ font-size: 44px;
 .form-label {
   color: #f8f9fa;
 }
-
