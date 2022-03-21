@@ -11,7 +11,6 @@ import Navigation from "./Navigation";
 import linkedin from "./images/linkedin.png";
 import gitHub from "./images/github.png";
 import email from "./images/email-icon.png";
-import Footer from "./Footer";
 
 function App() {
   return (
@@ -36,17 +35,15 @@ function Home() {
           <div className="container">
             <div className="row">
               <div className="col col-lg-4">
-                <div className="PersonalInfo">
-                  <img className="Photo" src={profileImage} alt="Lucy Joyce" />
+                <div className="personal-info">
+                  <img className="photo" src={profileImage} alt="Lucy Joyce" />
                 </div>
               </div>
               <div className="col col-lg-8">
-                <h1 className="Name">Lucy Joyce</h1>
-                <div className="About">
-                  <h2 className="Headline">
-                    Junior Front-End and iOS Developer based in London.
-                  </h2>
-                </div>
+                <h1 className="name">Lucy Joyce</h1>
+                <h2 className="headline">
+                  Junior Front-End and iOS Developer based in London.
+                </h2>
                 <div className="row">
                   <div className="col">
                     <p>

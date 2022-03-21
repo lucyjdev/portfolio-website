@@ -17,7 +17,7 @@ export default function Projects() {
       <Navigation />
       <div className="container">
         <h1 className="title">My Projects</h1>
-        <h2 className="project-language">Front-End Projects</h2>
+        <h2 className="project-language">Web Development Projects</h2>
         <CardGroup>
           <Card>
             <Card.Img variant="bottom" src={weatherApp} />
@@ -98,7 +98,6 @@ export default function Projects() {
             </Card.Footer>
           </Card>
         </CardGroup>
-
         <h2 className="project-language">iOS App Development Projects</h2>
         <h3 className="project-title">Timer App</h3>
         <CardGroup>
@@ -112,7 +111,7 @@ export default function Projects() {
                 learned as part of the course. The app functions as a basic
                 timer at present however, I am continuing to develop this to
                 have a multi timer function and a unique UI. The timer currently
-                meows when the timer is over, hence the name Kitty Timer. {" "}
+                meows when the timer is over, hence the name Kitty Timer.{" "}
               </Card.Text>
             </Card.Body>
           </Card>
