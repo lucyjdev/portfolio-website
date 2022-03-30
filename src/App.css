@@ -18,9 +18,7 @@ body {
 
 .info-para {
   color: #f8f9fa;
-  text-align: justify;
-  font-size: large;
-  margin-top: 25px;
+  width: 70%;
 }
 
 .link {
@@ -54,7 +52,6 @@ body {
 .nav-link:hover {
   color: #5f6384;
   background-color: #f8f9fa;
-  border-radius: 8px;
   box-shadow: 3px 3px 5px rgb(0 0 0 / 0.4);
   transition: ease-in-out 0.1s;
 }

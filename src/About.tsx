@@ -9,18 +9,18 @@ export default function About() {
       <div className="container">
         <h1 className="title">About Me</h1>
         <div className="about-title">
-          <h2>Programming Experience</h2>
           <div className="info-para">
             <p>
-              I started learning to code when I was on furlough in 2020. I was
-              always curious about coding, and this felt like the perfect
-              opportunity to explore it in more detail and to see if it was
-              something I enjoyed and could succeed at. Over the next six
-              months, I completed the{" "}
+              I started studying software development in July 2020, when I was
+              on furlough. I was always curious about coding, and this felt like
+              the perfect opportunity to explore it in more detail and to see if
+              it was something I enjoyed and could succeed at. I completed the{" "}
               <a className="link" href="https://www.shecodes.io/workshop">
-                SheCodes Basics
-              </a>
-              ,{" "}
+                SheCodes Introduction to Coding
+              </a>{" "}
+              workshop, which introduced me to HTML, CSS and JavaScript. After I
+              returned to work in my new position of Customer Success Manager, I
+              completed the{" "}
               <a className="link" href="https://www.shecodes.io/plus">
                 SheCodes Plus
               </a>{" "}
@@ -28,9 +28,11 @@ export default function About() {
               <a className="link" href="https://www.shecodes.io/react">
                 SheCodes React
               </a>{" "}
-              workshops and studied HTML, CSS, JavaScript, React, Bootstrap,
-              GitHub, Hosting with Netlify and using APIs. I created a web page
-              as part of the ‘Introduction to Coding’ workshop, a
+              workshops in the evenings and weekends over the next four months.
+              In these courses I studied HTML, CSS and JavaScript in more detail
+              and was introduced to React, Bootstrap, GitHub, Hosting with
+              Netlify and using APIs. I created a web page as part of the
+              ‘Introduction to Coding’ workshop, a
               <a
                 className="link"
                 href="https://github.com/lucyj204/weather-app-project"
@@ -49,7 +51,8 @@ export default function About() {
             </p>
             <p>
               I left my Customer Success role in July 2021 to focus on studying
-              coding full time. Between July and December 2021, I completed{" "}
+              software development full time. Between July and December 2021, I
+              completed the Udemy course{" "}
               <a
                 className="link"
                 href="https://www.udemy.com/course/ios-13-app-development-bootcamp/"
@@ -80,8 +83,8 @@ export default function About() {
             </p>
             <p>
               As the data for groups and events needed to be synchronised
-              between multiple devices, I moved from using Realm to implementing
-              a{" "}
+              between multiple devices, I moved from storing data using Realm to
+              implementing a{" "}
               <a
                 className="link"
                 href="https://github.com/lucyj204/GroupEventsCalendarBackend"
@@ -110,18 +113,17 @@ export default function About() {
             </p>
             <p>
               Outside of my courses I have been attending or viewing tech talks
-              online to increase my exposure. The talks include a Mongo DB
-              conference, Apple Developer talks and online lectures and
-              tutorials. I have spent time reading documentation and started to
-              read ‘Structure and Interpretation of Computer Programs’ by Harold
-              Abelson and Gerald Jay Sussman with Julie Sussman. I have also
-              been working through the ‘Computer Science Fundamentals’,
-              ‘Pre-Algebra’ and ‘Algorithm Fundamentals’ courses available on
-              Brilliant, to further develop my knowledge of these topics.
+              online. The talks include a Mongo DB conference, Apple Developer
+              talks and online lectures and tutorials. I have spent time reading
+              documentation and started to read ‘Structure and Interpretation of
+              Computer Programs’ by Harold Abelson and Gerald Jay Sussman with
+              Julie Sussman. I have also been working through the ‘Computer
+              Science Fundamentals’, ‘Pre-Algebra’ and ‘Algorithm Fundamentals’
+              courses available on Brilliant, to further develop my knowledge of
+              these topics.
             </p>
             <p>
-              For more information on my career and work experience please take
-              a look at my{" "}
+              For more information on my career and work experience please see my{" "}
               <a
                 className="link"
                 href="https://www.linkedin.com/in/lucy-joyce-597485166/"
