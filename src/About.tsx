@@ -12,9 +12,10 @@ export default function About() {
           <div className="info-para">
             <p>
               I started studying software development in July 2020, when I was
-              on furlough. I was always curious about coding, and this felt like
-              the perfect opportunity to explore it in more detail and to see if
-              it was something I enjoyed and could succeed at. I completed the{" "}
+              on furlough. I was always curious about software development, and
+              this felt like the perfect opportunity to explore it in more
+              detail and to see if it was something I enjoyed and could succeed
+              at. I completed the{" "}
               <a className="link" href="https://www.shecodes.io/workshop">
                 SheCodes Introduction to Coding
               </a>{" "}
@@ -123,7 +124,8 @@ export default function About() {
               these topics.
             </p>
             <p>
-              For more information on my career and work experience please see my{" "}
+              For more information on my career and work experience please see
+              my{" "}
               <a
                 className="link"
                 href="https://www.linkedin.com/in/lucy-joyce-597485166/"

@@ -49,7 +49,7 @@ function Home() {
                     <p>
                       <a href="https://www.linkedin.com/in/lucy-joyce-597485166/">
                         <img
-                          className="thumbnail"
+                          className="home-thumbnail"
                           src={linkedin}
                           alt="Link to LinkedIn profile"
                         />
@@ -60,7 +60,7 @@ function Home() {
                     <p>
                       <a href="https://github.com/lucyj204">
                         <img
-                          className="thumbnail"
+                          className="home-thumbnail"
                           src={gitHub}
                           alt="Link to GitHub profile"
                         />
@@ -71,7 +71,7 @@ function Home() {
                     <p>
                       <a href="mailto:lucy@lucyjoyce.dev">
                         <img
-                          className="thumbnail"
+                          className="home-thumbnail"
                           src={email}
                           alt="Link to email"
                         />

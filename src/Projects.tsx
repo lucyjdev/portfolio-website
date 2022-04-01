@@ -18,7 +18,7 @@ export default function Projects() {
       <div className="container">
         <h1 className="title">My Projects</h1>
         <h2 className="project-language">Web Development Projects</h2>
-        <CardGroup>
+        <CardGroup className="custom-card">
           <Card>
             <Card.Img variant="bottom" src={weatherApp} />
             <Card.Body>
@@ -99,12 +99,12 @@ export default function Projects() {
           </Card>
         </CardGroup>
         <h2 className="project-language">iOS App Development Projects</h2>
-        <h3 className="project-title">Timer App</h3>
-        <CardGroup>
+        <h3 className="project-title">Kitty Timer App</h3>
+        <CardGroup className="custom-card">
           <Card>
             <Card.Img variant="bottom" src={timerScreenshot1} />
             <Card.Body>
-              <Card.Title>Kitty Timer - Main View</Card.Title>
+              <Card.Title>Main View</Card.Title>
               <Card.Text>
                 I have been working on a timer app following completion of my
                 iOS app development bootcamp to expand on the skills that I have
@@ -118,7 +118,7 @@ export default function Projects() {
           <Card>
             <Card.Img variant="top" src={timerScreenshot2} />
             <Card.Body>
-              <Card.Title>Kitty Timer - Set Timer View</Card.Title>
+              <Card.Title>Set Timer View</Card.Title>
               <Card.Text>
                 The screenshot above shows the custom time picker I created in a
                 controller that is presented modally. The data from this picker
@@ -131,9 +131,7 @@ export default function Projects() {
           <Card>
             <Card.Img variant="bottom" src={timerScreenshot3} />
             <Card.Body>
-              <Card.Title>
-                Kitty Timer - Main View after timer is set
-              </Card.Title>
+              <Card.Title>Main View after timer is set</Card.Title>
               <Card.Text>
                 The screenshot above shows the appearance of the main view once
                 'Set' has been pressed in the set timer view. The data is

@@ -8,6 +8,13 @@ export default function Contact() {
       <Navigation />
       <div className="container mt-5">
         <h1 className="title">Contact Me</h1>
+        <h2 className="form-heading">
+          Please use this form or the link to my{" "}
+          <a className="link" href="mailto:lucy@lucyjoyce.dev">
+            email
+          </a>{" "}
+          to get in touch 🙂
+        </h2>
         <form
           className="row g-3"
           action="https://formsubmit.co/03b60fa18f4d2231d3c3aa529e0259f0"
@@ -65,7 +72,7 @@ export default function Contact() {
           </div>
           <div className="col-md-12">
             <label htmlFor="comments" className="form-label">
-              Enquiry
+              Message
             </label>
             <textarea
               className="form-control"

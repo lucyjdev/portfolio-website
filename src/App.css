@@ -35,6 +35,11 @@ body {
   margin: 20px;
 }
 
+.home-thumbnail {
+  width: 35px;
+  margin: 20px;
+}
+
 .logo {
   width: 150px;
   margin-top: 15px;
@@ -44,7 +49,7 @@ body {
 
 .nav-link {
   color: #f8f9fa;
-  font-size: 21px;
+  font-size: 15px;
   font-weight: bold;
   position: sticky;
 }
@@ -75,6 +80,7 @@ body {
   border-top: 1px, solid, #f8f9fa;
   text-align: center;
   margin-top: 100px;
+  padding: 20px;
   height: 50px;
   width: 100%;
 }
@@ -82,15 +88,11 @@ body {
 /* homepage css */
 
 .name {
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 40px;
   margin-left: 20px;
-  font-size: 56px;
+  font-size: 45px;
   color: #f8f9fa;
-}
-
-.website-info {
-  font-size: 20px;
 }
 
 .personal-info {
@@ -100,33 +102,41 @@ body {
 
 .photo {
   border: 2px solid #f8f9fa;
-  border-radius: 30px;
+  border-radius: 10px;
   box-shadow: 3px 3px 5px rgb(0 0 0 / 0.4);
   padding: 2px;
   margin-bottom: 20px;
   margin-right: 20px;
-  margin-top: 40px;
-  width: 300px;
+  margin-top: 30px;
+  width: 225px;
 }
 
 .headline {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   margin-left: 20px;
-  font-size: 50px;
+  font-size: 35px;
   color: #f8f9fa;
 }
 
 /* certificates css */
 
-.about-title {
+.certificate-heading {
   color: #f8f9fa;
-  margin-bottom: 30px;
+  font-size: 25px;
+  margin-bottom: 25px;
+  margin-top: 20px;
 }
 
-#certificate-rows {
-  text-align: left;
-  margin-top: 50px;
-  margin-bottom: 50px;
+.certificate-para {
+  color: #f8f9fa;
+  width: 70%;
+}
+
+.divider {
+  color: #f8f9fa;
+  height: 100px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 /* projects css */
@@ -146,8 +156,18 @@ body {
   font-weight: bold;
 }
 
+.custom-card {
+  color: #4C506A;
+}
+
 /* contact-form */
 
 .form-label {
   color: #f8f9fa;
+}
+
+.form-heading {
+  color:#f8f9fa;
+  font-size: 18px;
+  margin-bottom: 40px;
 }
