@@ -1,11 +1,11 @@
 import * as React from "react";
 import Navigation from "./Navigation";
 import Footer from "./Footer";
+import weatherScreenshot from "./images/Screenshot-weather.png";
+import reactWeatherScreenshot from "./images/Screenshot-react-weather.png";
 import timerScreenshot1 from "./images/timerScreenshot-portrait.png";
 import timerScreenshot2 from "./images/timerScreenshot-3-portrait.png";
 import timerScreenshot3 from "./images/timerScreenshot-4-portrait.png";
-import reactWeather from "./images/react-weather-app.png";
-import weatherApp from "./images/weather-app.png";
 import gitHub from "./images/github.png";
 import netlifyLogo from "./images/netlify-logo.png";
 import Card from "react-bootstrap/Card";
@@ -20,7 +20,9 @@ export default function Projects() {
         <h2 className="project-language">Web Development Projects</h2>
         <CardGroup className="custom-card">
           <Card>
-            <Card.Img variant="bottom" src={weatherApp} />
+            <a href="https://sleepy-panini-bdebb2.netlify.app/">
+              <Card.Img variant="bottom" src={weatherScreenshot} />
+            </a>
             <Card.Body>
               <Card.Title>SheCodes Plus Workshop Final Project</Card.Title>
               <Card.Text>
@@ -59,7 +61,9 @@ export default function Projects() {
             </Card.Footer>
           </Card>
           <Card>
-            <Card.Img variant="top" src={reactWeather} />
+            <a href="https://hardcore-varahamihira-b12763.netlify.app/">
+              <Card.Img variant="top" src={reactWeatherScreenshot} />
+            </a>
             <Card.Body>
               <Card.Title>SheCodes React Workshop Final Project</Card.Title>
               <Card.Text>
