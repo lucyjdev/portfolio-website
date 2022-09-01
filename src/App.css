@@ -9,8 +9,8 @@ body {
 .header {
   background: #411530;
   width: 100%;
-  padding-bottom: 40px;
-  padding-top: 40px;
+  padding-bottom: 30px;
+  padding-top: 30px;
   margin-bottom: 100px;
 }
 
@@ -55,7 +55,7 @@ body {
 
 .nav-link {
   color: #F5E8E4;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   position: sticky;
 }
@@ -176,4 +176,13 @@ body {
   color:#411530;
   font-size: 18px;
   margin-bottom: 40px;
+}
+
+.submit-button {
+  background-color: #f8f9fa;
+  color: #411530;
+  padding: 10px;
+  border: 2px solid #411530;
+  border-radius: 10px;
+  width: 100px;
 }

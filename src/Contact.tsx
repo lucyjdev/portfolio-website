@@ -83,7 +83,7 @@ export default function Contact() {
             ></textarea>
           </div>
           <div className="col-md-12">
-            <button type="submit" className="btn btn-light">
+            <button type="submit" className="submit-button">
               Submit
             </button>
           </div>

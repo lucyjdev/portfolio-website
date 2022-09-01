@@ -99,7 +99,7 @@ export default function About() {
               technologies.
             </p>
             <p>
-              In recent months I have been building this{" "}
+              In early 2022, I started building this{" "}
               <a
                 className="link"
                 href="https://github.com/lucyj204/portfolio-website"
@@ -111,6 +111,27 @@ export default function About() {
                 timer app using Swift
               </a>
               .
+            </p>
+            <p>
+              Between May 2022 and September 2022, I completed the{" "}
+              <a
+                className="link"
+                href="https://codefirstgirls.com/courses/cfgdegree/"
+              >
+                Code First Girls Degree in Full Stack development
+              </a>
+              , which I will have my results for after 8 September. The Degree
+              involved attending evening classes for four nights per week,
+              completing homework assessments each week on the topics studied,
+              completing two larger theory assessments covering Python, React,
+              design principles and front-end libraries, and two closed book
+              assessments covering Python theory and coding questions, Agile
+              methodology, MySQL coding questions, time and space complexity
+              questions and design principles. I also had the opportunity to
+              collaborate on a group project over the course of four weeks, in
+              which I focused primarily on creating the user interface for our
+              project using React and integrating our front end and backend
+              services.
             </p>
             <p>
               Outside of my courses I have been attending or viewing tech talks
