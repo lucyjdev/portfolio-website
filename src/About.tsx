@@ -1,11 +1,11 @@
 import * as React from "react";
-import Navigation from "./Navigation";
+import Header from "./Header";
 import Footer from "./Footer";
 
 export default function About() {
   return (
     <div>
-      <Navigation />
+      <Header />
       <div className="container">
         <h1 className="title">About Me</h1>
         <div className="about-title">

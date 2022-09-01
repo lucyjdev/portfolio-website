@@ -1,11 +1,11 @@
 import * as React from "react";
-import Navigation from "./Navigation";
 import Footer from "./Footer";
+import Header from "./Header";
 
 export default function Contact() {
   return (
     <div>
-      <Navigation />
+      <Header />
       <div className="container mt-5">
         <h1 className="title">Contact Me</h1>
         <h2 className="form-heading">

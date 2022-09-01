@@ -1,4 +1,5 @@
 import * as React from "react";
+import Header from "./Header";
 import { Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
@@ -7,7 +8,6 @@ import Contact from "./Contact";
 import Certificates from "./Certificates";
 import Projects from "./Projects";
 import About from "./About";
-import Navigation from "./Navigation";
 import linkedin from "./images/linkedin.png";
 import gitHub from "./images/github.png";
 import email from "./images/email-icon.png";
@@ -29,9 +29,9 @@ function App() {
 function Home() {
   return (
     <>
+      <Header />
       <main>
         <div className="container">
-          <Navigation />
           <div className="container">
             <div className="row">
               <div className="col col-lg-4">

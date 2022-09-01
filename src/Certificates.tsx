@@ -1,14 +1,14 @@
 import * as React from "react";
 import "./App.css";
-import Navigation from "./Navigation";
+import Header from "./Header";
 import Slider from "./Slider";
 import Footer from "./Footer";
 
 export default function Certificates() {
   return (
     <div>
+      <Header />
       <div className="container">
-        <Navigation />
         <h1 className="title">Certificates</h1>
         <Slider />
         <div className="container-fluid">

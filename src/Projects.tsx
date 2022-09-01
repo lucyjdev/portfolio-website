@@ -1,5 +1,5 @@
 import * as React from "react";
-import Navigation from "./Navigation";
+import Header from "./Header";
 import Footer from "./Footer";
 import weatherScreenshot from "./images/Screenshot-weather.png";
 import reactWeatherScreenshot from "./images/Screenshot-react-weather.png";
@@ -14,7 +14,7 @@ import CardGroup from "react-bootstrap/CardGroup";
 export default function Projects() {
   return (
     <div>
-      <Navigation />
+      <Header />
       <div className="container">
         <h1 className="title">My Projects</h1>
         <h2 className="project-language">Web Development Projects</h2>
