@@ -3,7 +3,7 @@ import Header from "./Header";
 import { Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import profileImage from "./images/lucy2.png";
+import profileImage from "./images/me.png";
 import Contact from "./Contact";
 import Certificates from "./Certificates";
 import Projects from "./Projects";
