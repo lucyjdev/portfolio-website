@@ -21,27 +21,27 @@ export default function Navigation() {
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
                 <Link className="nav-link" to="/">
-                  Home
+                  HOME
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/about">
-                  About Me
+                  ABOUT ME
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/projects">
-                  My Projects
+                  MY PROJECTS
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/certificates">
-                  Certificates
+                  CERTIFICATES
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/contact">
-                  Contact Me
+                  CONTACT ME
                 </Link>
               </li>
             </ul>

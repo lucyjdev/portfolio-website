@@ -9,7 +9,7 @@ export default function Contact() {
       <div className="container mt-5">
         <h1 className="title">Contact Me</h1>
         <h2 className="form-heading">
-          Please use this form or the link to my{" "}
+          Please use this form or my{" "}
           <a className="link" href="mailto:lucy@lucyjoyce.dev">
             email
           </a>{" "}
@@ -84,7 +84,7 @@ export default function Contact() {
           </div>
           <div className="col-md-12">
             <button type="submit" className="submit-button">
-              Submit
+              Send
             </button>
           </div>
         </form>

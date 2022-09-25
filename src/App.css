@@ -1,39 +1,63 @@
 body {
   margin-bottom: 140px;
-  background: #F5E8E4 fixed;
+  background: #DDDDDD fixed;
   margin-left: 0;
   margin-right: 0;
   padding: 0;
 }
 
 .header {
-  background: #411530;
+  background: #222831;
   width: 100%;
   padding-bottom: 30px;
-  padding-top: 30px;
+  padding-top: 10px;
   margin-bottom: 100px;
+}
+
+/* skills */
+
+.skills {
+  background: #222831 fixed;
+  color: #DDDDDD;
+  margin-top: 100px;
+}
+
+.technologies-title {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.technologies {
+  padding-left: 400px;
+  padding-right: 400px;
+}
+
+.technologies-list {
+  list-style: none;
+  text-align: center;
+  padding: 30px;
 }
 
 .title {
   text-align: left;
   margin-top: 20px;
   margin-bottom: 50px;
-  color: #411530;
+  color: #222831;
   font-weight: bold;
 }
 
 .info-para {
-  color: #411530;
+  color: #222831;
   width: 70%;
 }
 
 .link {
-  color: #411530;
+  color: #222831;
   font-weight: bold;
 }
 
 .link:hover {
-  color: #D1512D;
+  color: #F05454;
 }
 
 .thumbnail {
@@ -54,15 +78,15 @@ body {
 /* navigation css */
 
 .nav-link {
-  color: #F5E8E4;
-  font-size: 16px;
+  color: #DDDDDD;
+  font-size: 12px;
   font-weight: bold;
   position: sticky;
 }
 
 .nav-link:hover {
-  color: #411530;
-  background-color: #F5E8E4;
+  color: #222831;
+  background-color: #DDDDDD;
   box-shadow: 3px 3px 5px rgb(0 0 0 / 0.4);
   transition: ease-in-out 0.1s;
 }
@@ -72,7 +96,7 @@ body {
 }
 
 .navbar-toggler {
-  color: #f8f9fa;
+  color: #DDDDDD;
 }
 
 .navigation-bar {
@@ -83,7 +107,7 @@ body {
 /* footer css */
 
 .footer {
-  border-top: 1px, solid, #D1512D;
+  border-top: 1px, solid, #F05454;
   text-align: center;
   margin-top: 100px;
   padding: 20px;
@@ -97,17 +121,17 @@ body {
   margin-top: 30px;
   margin-bottom: 40px;
   margin-left: 20px;
-  font-size: 45px;
-  color: #411530;
+  font-size: 42px;
+  color: #222831;
 }
 
 .personal-info {
   text-align: center;
-  color: #411530;
+  color: #222831;
 }
 
 .photo {
-  border: 2px solid #F5C7A9;
+  border: 1px solid #30475E;
   border-radius: 10px;
   box-shadow: 3px 3px 5px rgb(0 0 0 / 0.4);
   padding: 2px;
@@ -120,26 +144,26 @@ body {
 .headline {
   margin-bottom: 25px;
   margin-left: 20px;
-  font-size: 35px;
-  color: #411530;
+  font-size: 30px;
+  color: #252323;
 }
 
 /* certificates css */
 
 .certificate-heading {
-  color: #411530;
+  color: #222831;
   font-size: 25px;
   margin-bottom: 25px;
   margin-top: 20px;
 }
 
 .certificate-para {
-  color: #411530;
+  color: #222831;
   width: 70%;
 }
 
 .divider {
-  color: #D1512D;
+  color: #F05454;
   height: 100px;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -151,38 +175,38 @@ body {
   text-align: left;
   margin-top: 60px;
   margin-bottom: 60px;
-  color: #411530;
+  color: #222831;
   font-weight: bold;
 }
 
 .project-title {
   margin-top: 40px;
   margin-bottom: 30px;
-  color: #411530;
+  color: #222831;
   font-weight: bold;
 }
 
 .custom-card {
-  color: #411530;
+  color: #222831;
 }
 
 /* contact-form */
 
 .form-label {
-  color: #411530;
+  color: #222831;
 }
 
 .form-heading {
-  color:#411530;
+  color:#222831;
   font-size: 18px;
   margin-bottom: 40px;
 }
 
 .submit-button {
-  background-color: #f8f9fa;
-  color: #411530;
+  background-color: #30475E;
+  color: #DDDDDD;
   padding: 10px;
-  border: 2px solid #411530;
+  border: 1px solid #222831;
   border-radius: 10px;
   width: 100px;
 }

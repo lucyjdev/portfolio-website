@@ -120,29 +120,18 @@ export default function About() {
               >
                 Code First Girls Degree in Full Stack development
               </a>
-              , which I will have my results for after 8 September. The Degree
-              involved attending evening classes for four nights per week,
-              completing homework assessments each week on the topics studied,
-              completing two larger theory assessments covering Python, React,
+              . The Degree involved attending evening classes for four nights
+              per week, completing homework assessments each week on the topics
+              studied, two larger theory assessments covering Python, React,
               design principles and front-end libraries, and two closed book
-              assessments covering Python theory and coding questions, Agile
-              methodology, MySQL coding questions, time and space complexity
-              questions and design principles. I also had the opportunity to
-              collaborate on a group project over the course of four weeks, in
-              which I focused primarily on creating the user interface for our
-              project using React and integrating our front end and backend
-              services.
-            </p>
-            <p>
-              Outside of my courses I have been attending or viewing tech talks
-              online. The talks include a Mongo DB conference, Apple Developer
-              talks and online lectures and tutorials. I have spent time reading
-              documentation and started to read ‘Structure and Interpretation of
-              Computer Programs’ by Harold Abelson and Gerald Jay Sussman with
-              Julie Sussman. I have also been working through the ‘Computer
-              Science Fundamentals’, ‘Pre-Algebra’ and ‘Algorithm Fundamentals’
-              courses available on Brilliant, to further develop my knowledge of
-              these topics.
+              assessments covering Python theory and practical coding questions,
+              Agile methodology, MySQL coding questions, time and space
+              complexity and design principles. I also collaborated on a group
+              project over the course of five weeks, in which I played a key
+              role in creating the user interface for our project using React
+              and integrating our front end and backend services. I received a
+              Distinction for this course and am currently awaiting my
+              certificate.
             </p>
             <p>
               For more information on my career and work experience please see
