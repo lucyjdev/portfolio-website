@@ -9,7 +9,6 @@ import Certificates from "./Certificates";
 import Projects from "./Projects";
 import About from "./About";
 import Links from "./Links";
-import Skills from "./Skills";
 
 function App() {
   return (
@@ -46,9 +45,6 @@ function Home() {
             </div>
           </div>
         </div>
-        {/* <div className="skills">
-          <Skills />
-        </div> */}
       </main>
     </>
   );
