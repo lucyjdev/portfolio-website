@@ -14,6 +14,71 @@ export default function Certificates() {
         <div className="container-fluid">
           <h3 className="project-title">Course Detail</h3>
           <h3 className="certificate-heading">
+            Code First Girls Degree in Full Stack Development
+          </h3>
+          <p className="certificate-para">
+            The{" "}
+            <a
+              className="link"
+              href="https://codefirstgirls.com/courses/cfgdegree/"
+            >
+              Code First Girls Degree in Full Stack Development
+            </a>{" "}
+            is an intensive 13 week course split into Foundation and
+            Specialisation topics.
+          </p>
+          <p className="certificate-para">
+            The Foundation part of the course focused on data structures, APIs,
+            libraries, testing and problem solving using Python. I also
+            practiced the foundations of data management including SQL syntax,
+            database creation, queries, logic operators and constraints as part
+            of the Foundation.
+          </p>
+          <p className="certificate-para">
+            The Specialisation part of the course focused on advanced topics of
+            HTML, CSS, JavaScript, React, design, UX, TypeScript, version
+            control and debugging, as well as topics of computer science such as
+            time and space complexity and data structures.
+          </p>
+          <p className="certificate-para">
+            The assessment also included collaborating on a group project over
+            the course of five weeks, in which I played a key role in the
+            creation of the user interface for our project using React, and the
+            integration of our front end and back end services.
+          </p>
+          <hr className="divider" />
+          <h3 className="certificate-heading">
+            iOS and Swift - The Complete iOS App Development Bootcamp
+          </h3>
+          <p className="certificate-para">
+            I completed the{" "}
+            <a
+              className="link"
+              href="https://www.udemy.com/course/ios-13-app-development-bootcamp/"
+            >
+              iOS and Swift – The Complete iOS App Development Bootcamp
+            </a>{" "}
+            between July and December 2021. This course covered concepts of
+            Object Oriented Programming, control structures, data structures,
+            software design, networking, persistent local data storage,
+            implementing In-App Purchases with Apple StoreKit, machine learning,
+            augmented reality and SwiftUI.
+          </p>
+          <p className="certificate-para">
+            {" "}
+            I have had experience building over 20 apps as part of this course
+            and I have since started to develop an iOS collaborative events
+            calendar app and a timer app developing on the skills I learned
+            during the bootcamp.
+          </p>
+          <a
+            className="link"
+            href="https://www.udemy.com/certificate/UC-713a6b81-5bd3-4b58-bb4f-4e376fc765b4/"
+          >
+            View verified certificate
+          </a>
+          <hr className="divider" />
+          <h3 className="certificate-heading">
             SheCodes Introduction to Coding
           </h3>
           <p className="certificate-para">
@@ -92,37 +157,6 @@ export default function Certificates() {
           <a
             className="link"
             href="https://www.shecodes.io/certificates/2f60992402a11738860ab607c86441a7"
-          >
-            View verified certificate
-          </a>
-          <hr className="divider" />
-          <h3 className="certificate-heading">
-            iOS and Swift - The Complete iOS App Development Bootcamp
-          </h3>
-          <p className="certificate-para">
-            I completed the{" "}
-            <a
-              className="link"
-              href="https://www.udemy.com/course/ios-13-app-development-bootcamp/"
-            >
-              iOS and Swift – The Complete iOS App Development Bootcamp
-            </a>{" "}
-            between July and December 2021. This course covered concepts of
-            Object Oriented Programming, control structures, data structures,
-            software design, networking, persistent local data storage,
-            implementing In-App Purchases with Apple StoreKit, machine learning,
-            augmented reality and SwiftUI.
-          </p>
-          <p className="certificate-para">
-            {" "}
-            I have had experience building over 20 apps as part of this course
-            and I have since started to develop an iOS collaborative events
-            calendar app and a timer app developing on the skills I learned
-            during the bootcamp.
-          </p>
-          <a
-            className="link"
-            href="https://www.udemy.com/certificate/UC-713a6b81-5bd3-4b58-bb4f-4e376fc765b4/"
           >
             View verified certificate
           </a>
