@@ -39,7 +39,7 @@ function Home() {
             <div className="col col-lg-8">
               <h1 className="name">Lucy Joyce</h1>
               <h2 className="headline">
-                Junior Front-End and iOS Developer based in London.
+                Junior Software Developer based in London.
               </h2>
               <Links />
             </div>

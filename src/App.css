@@ -79,16 +79,18 @@ body {
 
 .nav-link {
   color: #DDDDDD;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: bold;
   position: sticky;
 }
 
 .nav-link:hover {
-  color: #222831;
-  background-color: #DDDDDD;
+  color: #DDDDDD;
+  background-color: #F05454;
   box-shadow: 3px 3px 5px rgb(0 0 0 / 0.4);
-  transition: ease-in-out 0.1s;
+  border-radius: 5px;
+  padding: 5px;
+  transition: ease-in-out 0.3s;
 }
 
 .nav-item {
@@ -121,7 +123,7 @@ body {
   margin-top: 30px;
   margin-bottom: 40px;
   margin-left: 20px;
-  font-size: 42px;
+  font-size: 38px;
   color: #222831;
 }
 
@@ -145,6 +147,13 @@ body {
   margin-bottom: 25px;
   margin-left: 20px;
   font-size: 30px;
+  color: #252323;
+}
+
+.interested-in {
+  margin-bottom: 25px;
+  margin-left: 20px;
+  font-size: 22px;
   color: #252323;
 }
 
